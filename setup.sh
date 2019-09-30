@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+cd model
 python modelmake
 
 echo "deb [arch=amd64] http://storage.googleapis.com/tensorflow-serving-apt stable tensorflow-model-server tensorflow-model-server-universal" | sudo tee /etc/apt/sources.list.d/tensorflow-serving.list && \
