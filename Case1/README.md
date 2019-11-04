@@ -1,3 +1,5 @@
+## Example: Hosting 3 Models
+
 Run the provided bash script "start.sh"
 	- It serializes the .h5 models to .pb
 	- Installs the TensorFlow server
