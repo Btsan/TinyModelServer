@@ -1,8 +1,8 @@
 ## Example: Hosting 3 Models
 
-Run the provided bash script "start.sh"
+Run the provided bash script "start.sh" (if the script throws errors, try dos2unix)
 
-- It serializes the .h5 models to .pb
+- It serializes the .h5 models to .pb (requires TensorFlow 2.0)
 - Installs the TensorFlow server
 - Launches the server hosting the models
 	
